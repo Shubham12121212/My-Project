@@ -1,11 +1,34 @@
 .App {
+  position: relative;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  background-image: url(background.jpg);
+  height: 1300px;
+
+  
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+.card{
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border: 2px solid;
+  margin-top: 3%;
+  position: absolute;
+  border-radius: 20px;
+  width: 500px;
+  background-color: white;
+  height: 665px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -14,7 +37,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,9 +46,335 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.outer-box{
+  position: absolute;
+  width: 378px;
+  height: 185px;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
 .App-link {
   color: #61dafb;
+}
+.tag1{
+  position: absolute;
+  top: 270%;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+  gap: 8px;
+
+  position: absolute;
+  width: 47px;
+  height: 25px;
+  background: #F0F0F0;
+  border-radius: 2px;
+  font-size: medium;
+  font-size: 12px;
+  font-weight: bold;
+}
+.tag1:hover{
+  background-color: blue;
+}
+.tag2:hover{
+  background-color: blue;
+}
+.tag3:hover{
+  background-color: blue;
+}
+.tag4:hover{
+  background-color: blue;
+}
+.tag5:hover{
+  background-color: blue;
+}
+.tag2{
+  position: absolute;
+  top: 270%;
+  left: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+  gap: 8px;
+  position: absolute;
+  width: 47px;
+  height: 25px;
+  background: #F0F0F0;
+  border-radius: 2px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.tag3{
+  position: absolute;
+  top: 270%;
+  left: 160px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+  gap: 8px;
+  position: absolute;
+  width: 47px;
+  height: 25px;
+  background: #F0F0F0;
+  border-radius: 2px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.tag4{
+  position: absolute;
+  top: 270%;
+  left: 240px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+  gap: 8px;
+  position: absolute;
+  width: 47px;
+  height: 25px;
+  background: #F0F0F0;
+  border-radius: 2px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.Get-Started{
+
+  position: absolute;
+  top: 320%;
+  width: 300px;
+  height: 20px;
+  border-radius: 5px;
+  padding: 10px 40px 10px 40px;
+  gap: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #3766E8;
+  border-radius: 5px;
+
+  
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+.Get-Started:hover{
+   
+  background-color: gray;
+}
+.tag5{
+  position: absolute;
+  top: 270%;
+  left: 320px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+  gap: 8px;
+  position: absolute;
+  width: 47px;
+  height: 25px;
+  background: #F0F0F0;
+  border-radius: 2px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.element3{
+   
+  background-color:blue !important ;
+  width: 11.05px;
+  height: 27.84px;
+  position: absolute;
+  left: -22.5%;
+  right: 78.34%;
+  top: 50.12%;
+  bottom: -8.13%;
+  border-radius: 100px;
+  transform: matrix(0.86, -0.52, 0.51, 0.86, 0, 0);
+}
+.text{
+  position: absolute;
+  top: 53%;
+  width: 378px;
+  height: 60px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 30px;
+  text-align: center;
+  color: #212121;
+
+}
+.text1{
+  position: absolute;
+  top: 100%;
+  width: 378px;
+height: 37px;
+
+/* Caption */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+
+
+text-align: center;
+
+
+color: #545454;
+
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.element2{
+   
+  background-color:blue !important ;
+  width: 11.05px;
+  height: 42.37px;
+  position: absolute;
+  left: 23.31%;
+  right: 55.02%;
+  top: 18.03%;
+  bottom: -6.3%;
+  border-radius: 100px;
+  transform: matrix(0.86, -0.52, 0.51, 0.86, 0, 0);
+}
+.element1{
+  background-color: blue !important;
+  width: 11.05px;
+  height: 21.55px;
+  position: absolute;
+  left: 59.92%;
+  right: 18.42%;
+  top: 11.96%;
+  bottom: 43.15%;
+  border-radius: 100px;
+  
+  transform: matrix(0.86, -0.52, 0.51, 0.86, 0, 0);
+}
+.input1{
+  position: absolute;
+  top: 155%;
+  left: 0;
+  box-sizing: border-box;
+  position: absolute;
+  width: 368px;
+  height: 37px;
+  background: #FFFFFF;
+  border: 1px solid #CED4DA;
+  border-radius: 6px;
+ 
+}
+.input2{
+  position: absolute;
+  top: 205%;
+  left: 0;
+  box-sizing: border-box;
+  position: absolute;
+  width: 368px;
+  height: 37px;
+  background: #FFFFFF;
+  border: 1px solid #CED4DA;
+  border-radius: 6px;
+ 
+}
+.Company-size{
+ 
+  position: absolute;
+  top: 250%;
+  left: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 17px;
+  width: 105px;
+  height: 17px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  /* Text Primary */
+
+  color: #545454;
+
+}
+
+.Industry{
+
+  position: absolute;
+  top: 190%;
+  left: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 17px;
+  width: 105px;
+  height: 17px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  /* Text Primary */
+
+  color: #545454;
+
+
+}
+.Company-name{
+        
+  position: absolute;
+  top: 140%;
+  left: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 17px;
+  width: 105px;
+  height: 17px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  /* Text Primary */
+
+  color: #545454;
+
+}
+.box{
+  position: absolute;
+  width: 51px;
+height: 48px;
+display: flex;
+justify-content: center;
+background-color: white;
+margin-top: 3%;
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
 }
 
 @keyframes App-logo-spin {
